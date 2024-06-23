@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles-dboard.css">
+    <!-- <script src="" defer></script> -->
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+
+            <div class="header-1a">
+                <div class="header-1a-image-container">
+                    <img class="search-icon" src="./asssets-dboard/search.svg" alt="Dashboard logo"/>
+                </div>
+
+                <div class="searchbar-container">
+                    <form action="/action_page.php">
+                    <!-- <label for="searchquery"></label> -->
+                <input type="search" name="searchquery" id="searchquery" placeholder="Search" size="60">
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="header-1b">
+
+                <div class="bell-icon-container">
+                   <img class="bell-icon-image" src="./asssets-dboard/bell.svg" alt="Bell Icon"/> 
+                </div>
+
+                <div class="user-icon-small-container">
+                    <img class="user-icon-small-image" src="./asssets-dboard/stickers-breaking-bad-los-pollos-hermanos.png" alt="Image Icon Small logo"/>
+                </div>
+
+                <div class="header-username-container">
+                    <p class="header-username-para">Gustavo Fring</p>
+                </div>
+
+            </div>
+
+            <div class="header-2a">
+
+                <div class="user-icon-big-container">
+                    <img class="user-icon-big-image" src="./asssets-dboard/stickers-breaking-bad-los-pollos-hermanos.png" alt="Image Icon Big logo"/>
+                </div>
+
+                <div class="header-username-hi-container">
+                    <p class="header-username-hi-para-one">Hi there,</p>
+                    <p class="header-username-hi-para-two">Gustavo Fring (@gusfring)</p>
+                </div>
+
+            </div>
+
+            <div class="header-2b">
+
+                <div class="new-button-container">
+                    <button class="button new-button" type="button">New</button>
+                </div> <!-- use div/p to separate. Check button alignment from left -->
+
+                <div class="upload-button-container">
+                    <button class="button upload-button" type="button">Upload</button>
+                </div>
+
+                <div class="share-button-container">
+                    <button class="button share-button" type="button">Share</button>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div class="sidebar">
+
+            <div class="one-dashboard-and-logo-container">
+                
+                <div class="one-dashboard-and-logo-image-div">
+                    <img class="one-dashboard-and-logo-image" src="./asssets-dboard/Los_Pollos_Hermanos_logo.png" alt="Dashboard Icon logo"/>
+                </div>
+
+                <div class="one-dashboard-and-logo-para-div">
+                    <p class="one-dashboard-and-logo-para-one">Dashboard</p>
+                </div>
+
+            </div>
+
+            <div class="empty-div-one"></div>
+
+            <div class="two-hpmhtc-container">
+
+                <!-- <div class="two-hpmhtc-home-div-container">
+                     <div class="two-hpmhtc-home-div">  this div was commented out first
+                        <img class="two-hpmhtc-home-image" src="./asssets-dboard/home.svg" alt="Home logo"/>
+                    </div> this div was commented out first
+
+                    <div class="two-hpmhtc-home-para-div">
+                        <p class="two-hpmhtc-home-para">Home</p>
+                    </div>
+                </div> -->
+                 <div class="sidebaro sidebar-home-div">
+                    <img class="imago sidebar-home-image" src="./asssets-dboard/home.svg" alt="Home logo"/>
+                    <p class="parago sidebar-home-para-div">Home</p>
+                </div>
+
+                 <div class="sidebaro sidebar-profile-div">
+                    <img class="imago sidebar-profile-image" src="./asssets-dboard/profile.svg" alt="Profile logo"/>
+                    <p class="parago sidebar-Profile-para-div">Profile</p>
+                </div>
+
+                <div class="sidebaro sidebar-messages-div">
+                    <img class="imago sidebar-messages-image" src="./asssets-dboard/message.svg" alt="Messages logo"/>
+                    <p class="parago sidebar-messages-para-div">Messages</p>
+                </div>
+
+                <div class="sidebaro sidebar-history-div">
+                    <img class="imago sidebar-history-image" src="./asssets-dboard/clock-time-three.svg" alt="History logo"/>
+                    <p class="parago sidebar-history-para-div">History</p>
+                </div>
+
+                <div class="sidebaro sidebar-tasks-div">
+                    <img class="imago sidebar-tasks-image" src="./asssets-dboard/tasks.svg" alt="Tasks logo"/>
+                    <p class="parago sidebar-tasks-para-div">Tasks</p>
+                </div>
+
+                <div class="sidebaro sidebar-communities-div">
+                    <img class="imago sidebar-communities-image" src="./asssets-dboard/account-group.svg" alt="Communities logo"/>
+                    <p class="parago sidebar-communities-para-div">Communities</p>
+                </div>
+            </div>
+
+            <div class="empty-div-two"></div>
+
+            <div class="three-ssp-container">
+                <div class="sidebaro sidebar-settings-div">
+                    <img class="imago sidebar-settings-image" src="./asssets-dboard/cog.svg" alt="Settings logo"/>
+                    <p class="parago sidebar-settings-para-div">Settings</p>
+                </div>
+
+                <div class="sidebaro sidebar-support-div">
+                    <img class="imago sidebar-support-image" src="./asssets-dboard/help-box.svg" alt="Support logo"/>
+                    <p class="parago sidebar-support-para-div">Support</p>
+                </div>
+
+                <div class="sidebaro sidebar-privacy-div">
+                    <img class="imago sidebar-privacy-image" src="./asssets-dboard/privacy.svg" alt="Privacy logo"/>
+                    <p class="parago sidebar-privacy-para-div">Privacy</p>
+                </div>
+            </div>
+
+            <div class="empty-div-three"></div>
+
+        </div>
+
+        <div class="main">
+            <div class="cards">
+                <p class="cards-space-heading">Your Projects</p>
+                <div class="cards-go-inside">
+                    <div class="card-1">
+                        <!-- <div class="card-1-inside"> -->
+                            <p class="card-1-inside-heading-1">Super Cool Project</p>
+                            <p class="card-1-inside-heading-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laboriosam, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda delectus itaque aperiam sequi esse ab eveniet eum beatae, animi odio soluta earum veniam distinctio aliquam nulla perferendis labore optio. Quae.</p>
+                            <div class="card-1-inside-images-div">
+                                <img class="imago sidebar-privacy-image" src="./asssets-dboard/star.svg" alt="Star logo"/>
+                                <img class="imago sidebar-privacy-image" src="./asssets-dboard/eye.svg" alt="Eye logo"/>
+                                <img class="imago sidebar-privacy-image" src="./asssets-dboard/fork.svg" alt="Fork logo"/>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                    <div class="card-2"></div>
+                    <div class="card-3"></div>
+                    <div class="card-4"></div>
+                    <div class="card-5"></div>
+                    <div class="card-6"></div>
+                </div>
+            </div>
+
+            <div class="announcements">
+                <p class="announcements-space-heading">Announcements</p>
+                <div class="announcements-go-inside">
+                    <div class="announcements-card-1">
+                        <p class="announcements-card-1-inside-heading-1">Site Maintenance</p>
+                        <p class="announcements-card-1-inside-heading-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laboriosam, ipsum.</p> 
+                    </div>
+                    <div class="announcements-card-2"></div>
+                    <div class="announcements-card-3"></div>
+                </div>
+            </div>
+
+            <div class="trending">
+                <p class="trending-space-heading">Trending</p>
+                <div class="trending-go-inside">
+                    <div class="trending-card-1"></div>
+                    <div class="trending-card-2"></div>
+                    <div class="trending-card-3"></div>
+                    <div class="trending-card-4"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="user-icon-big-container">
+                    <img class="user-icon-big-image" src="./asssets-dboard/stickers-breaking-bad-los-pollos-hermanos.png" alt="Image Icon Big logo"/>
+                </div>
+                <div class="header-username-hi-container">
+                    <p class="header-username-hi-para-one">Hi there,</p>
+                    <p class="header-username-hi-para-two">Gustavo Fring</p>
+                </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
+        
+    <div class="sidebar">
+        <div class="dashboard-box sidebar-1">
+            <div class="sidebar-1a">
+                <img src="./asssets-dboard/dashboard.svg" alt="Dashboard logo"/><p class="sidebar-1a-p">Dashboard</p>
+            </div>
+        </div>
+        <div class="dashboard-box sidebar-2">
+            !-- <p>Home</p>
+            <p>Profile</p>
+            <p>Messages</p>
+            <p>History</p>
+            <p>Tasks</p>
+            <p>Communities</p> ->
+        </div>
+        <div class="dashboard-box sidebar-3">
+            !-- <p>Settings</p>
+            <p>Support</p>
+            <p>Privacy</p> ->
+        </div> 
+        <div class="dashboard-box sidebar-4">
+
+        </div>
+    </div>
+    <div class="header"></div>
+    <div class="main"></div>
+
+</div> -->
+
+
+
+
+            <!-- <div class="dashboard-box sidebar-5">
+                <p>History</p>
+            </div> 
+            <div class="dashboard-box sidebar-6">
+                <p>Tasks</p>
+            </div> 
+            <div class="dashboard-box sidebar-7">
+                <p>Communities</p>
+            </div>  -->
+        
+        
+
+
+
+
+<!-- <div class="sidebar">
+    <div class="sidebar-inside">
+        <div class="icon-label dashboard-div-one">
+            <img src="./asssets-dboard/Los_Pollos_Hermanos_logo.png" alt="Dashboard logo"/>
+            <p>Dashboard</p> 
+        </div>
+        <div class="dashboard-div-two">
+            <div class="icon-label home-icon-div">
+                <img src="./asssets-dboard/home.svg" alt="Home logo"/>
+                <p>Home</p> 
+            </div>
+            <div class="icon-label profile-icon-div">
+                <img src="./asssets-dboard/profile.svg" alt="Profile logo"/>
+                <p>Profile</p> 
+            </div>
+            <div class="icon-label messages-icon-div">
+                <img src="./asssets-dboard/message.svg" alt="Messages logo"/>
+                <p>Messages</p> 
+            </div>
+            <div class="icon-label history-icon-div">
+                <img src="./asssets-dboard/clock-time-three.svg" alt="History logo"/>
+                <p>History</p> 
+            </div>
+            <div class="icon-label tasks-icon-div">
+                <img src="./asssets-dboard/tasks.svg" alt="Tasks logo"/>
+                <p>Tasks</p> 
+            </div>
+            <div class="icon-label communities-icon-div">
+                <img src="./asssets-dboard/community.svg" alt="Communities logo"/>
+                <p>Communities</p> 
+            </div>
+        </div>
+        <div class="dashboard-div-three">
+            <div class="icon-label settings-icon-div">
+                <img src="./asssets-dboard/cog.svg" alt="Settings logo"/>
+                <p>Settings</p> 
+            </div>
+            <div class="icon-label support-icon-div">
+                <img src="./asssets-dboard/face-agent.svg" alt="Support logo"/>
+                <p>Support</p> 
+            </div>
+            <div class="icon-label privacy-icon-div">
+                <img src="./asssets-dboard/shield-check.svg" alt="Privacy logo"/>
+                <p>Privacy</p> 
+            </div>
+        </div>
+        <div class="dashboard-div-four">
+
+        </div>
+    </div>
+</div>
+<div class="header"></div>
+<div class="main"></div>
+</div>
+</body>
+</html> -->
